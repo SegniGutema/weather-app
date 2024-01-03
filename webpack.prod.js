@@ -23,11 +23,5 @@ module.exports = merge(common, {
       },
     ],
   },
-  plugins: [
-    new HtmlWebpackPlugin({
-      template: "./src/template.html",
-    }),
-    new MiniCssExtractPlugin(),
-    new CleanWebpackPlugin(),
-  ],
+  plugins: [new MiniCssExtractPlugin(), new CleanWebpackPlugin()],
 });

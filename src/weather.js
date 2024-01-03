@@ -31,7 +31,5 @@ export function processWeatherData(rawWeatherData) {
     };
   } catch (error) {
     throw new Error(error);
-
-    // Display an error message to the user
   }
 }
