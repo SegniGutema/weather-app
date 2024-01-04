@@ -20,9 +20,12 @@ header {
   height: 60px;
   background-color: var(--tertiary);
   border-bottom: 5px solid var(--primary-color);
-  padding: 0 4vw;
+  padding: 0 5%;
   position: fixed;
   top: 0;
+}
+header > h2 {
+  width: min-content;
 }
 main {
   display: flex;
