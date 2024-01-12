@@ -16,12 +16,10 @@ async function render(city) {
 
 async function getUserInput() {
   const cityInput = document.querySelector("input[type=search]");
-  cityInput.addEventListener("keypress", (e) => {
-    if (e.code === "Enter") {
-      e.preventDefault();
-      const city = cityInput.value.trim();
-      render(city);
-    }
+  cityInput.addEventListener("input", (e) => {
+    e.preventDefault();
+    const city = cityInput.value.trim();
+    render(city);
   });
 }
 
