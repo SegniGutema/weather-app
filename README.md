@@ -1,33 +1,21 @@
 # weather-app
 
-Empty project.
+This project is a simple weather app project which is a part of the odin project web development course
 
-## Building and running on localhost
+# built-using
 
-First install dependencies:
+1.HTML
+2.CSS
+3.JS
+4.Webpack
+5.Weather-api
+6.Babel
 
-```sh
-npm install
-```
+# credit-to
 
-To create a production build:
+the odin project : https://www.theodinproject.com
+weather api : https://www.weatherapi.com
 
-```sh
-npm run build-prod
-```
+# the-project
 
-To create a development build:
-
-```sh
-npm run build-dev
-```
-
-## Running
-
-```sh
-node dist/bundle.js
-```
-
-## Credits
-
-Made with [createapp.dev](https://createapp.dev/)
+Live Preview :
