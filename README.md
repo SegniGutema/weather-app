@@ -18,4 +18,4 @@ weather api : https://www.weatherapi.com
 
 # the-project
 
-Live Preview :
+Live Preview : https://segnigutema.github.io/weather-app/
