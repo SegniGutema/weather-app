@@ -72,6 +72,7 @@ export function handleSuccess(processedWeatherData) {
   });
 }
 
+// format the date that comes from weather api
 export function formatDate(dateString) {
   const date = new Date(dateString);
   const options = {
